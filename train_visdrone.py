@@ -5,7 +5,7 @@ from detectron2.engine import launch
 from train_tools.visdrone_train import default_argument_parser, start_train
 
 from models.retinanet.retinanet import RetinaNet_D2
-from models.querydet.detector import RetinaNetQueryDets
+from models.querydet.detector import RetinaNetQueryDet
 
 if __name__ == '__main__':
     args = default_argument_parser().parse_args()
