@@ -19,3 +19,5 @@ RUN  cd detectron2_backbone && \
 
 RUN python -m pip install spconv-cu113 
 
+# fix a bug
+RUN python -m pip install fvcore==0.1.1.dev200512 -i https://mirrors.bfsu.edu.cn/pypi/web/simple
